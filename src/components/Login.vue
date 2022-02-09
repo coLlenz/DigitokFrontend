@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-center">
-    <div class="sm:w-8/12 md:container md:mx-auto bg-white p-6 rounded-lg">
-     <h3 class="text-center text-3xl font-bold font-inter pb-4">Log In</h3>
+  <div class="flex items-center h-full justify-center">
+    <div class="sm:w-8/12 md:w-4/12 bg-white p-6 rounded-lg">
+     <h3 class="text-center text-3xl font-bold font-inter pb-8 bottom-4">Log In</h3>
       <form @submit= "onSubmit" method="post">
         <div
           class="

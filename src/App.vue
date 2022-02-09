@@ -1,20 +1,21 @@
 <template>
-  <div class="h-screen flex justify-center items-center">
-    <Login />
+  <div class="h-screen">
+    <transition>
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
 <script>
-import Login from './components/Login.vue'
+import Login from "./components/Login.vue";
 
 export default {
-  name: 'App',
-  components: {
-    Login
-  }
-}
+  name: "App",
+  // components: {
+  //   Login,
+  // },
+};
 </script>
 
 <style>
-
 </style>

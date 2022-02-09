@@ -1,5 +1,10 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+
+@layer components {
+    .sidebar {
+        @apply hover:bg-black hover:text-white
+    }
+}

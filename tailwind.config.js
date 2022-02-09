@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false,
   content: ["./src/**/*.{html,js}"],
@@ -6,7 +7,12 @@ module.exports = {
     fontFamily: {
       inter: ['Inter'],
     },
-    extend: {}
+    extend: {
+
+    },
+    variants: {
+      fill: ['hover', 'focus'],
+    },
   },
   plugins: [],
 };

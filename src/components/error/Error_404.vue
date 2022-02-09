@@ -1,7 +1,9 @@
 <template>
-    <div class="container mx-auto bg-gray-500">
-        <div class="flex items-center justify-center">
-            <h1 class="font-inter font-bold text-3xl"></h1>
+    <div class="w-full h-screen bg-indigo-200">
+        <div class="flex items-center h-full justify-center">
+            <h1 class="font-inter font-semibold text-4xl text-white">
+                Page Not Found
+            </h1>
         </div>
     </div>
 </template>
@@ -13,6 +15,6 @@ export default {
 }
 </script>
 
- <style lang="">
+ <style lang="" scoped>
      
  </style>

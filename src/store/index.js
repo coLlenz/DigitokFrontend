@@ -7,8 +7,13 @@ import auth from './module/auth'
 Vue.use(Vuex);
 
 //Create store
-export default new Vuex.Store({
+const store = new Vuex.Store({
     modules: {
-        auth,
+        auth
     }
 })
+
+
+export default store;
+
+
